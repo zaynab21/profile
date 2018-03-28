@@ -1,0 +1,91 @@
+.movies {
+  width: 300px;
+  height: 500px;
+  border-radius: 17px;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: Open Sans;
+  font-size: 15px ;
+  color: darkslategrey;
+  line-height: ;
+  font-size: 180;
+}
+
+h1, h2, h3 {
+  color: #8B0000;
+  font-family: montserrat;
+  font-size: 22px;
+  line-height: ;
+
+}
+
+a {
+   opacity: 0.6;
+   text-decoration: underline;
+   color: navy;
+   font-size: 22px;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
+div {
+  display: block ;
+}
+
+.text-center {
+background : white;
+text-align: center;
+padding: 30px;
+border-radius: 25px;
+margin: 25px;
+
+}
+
+.container {
+  background-color: ;
+  margin: 0 auto;
+  width :580px;
+}
+
+#profilepic {
+  border-radius: 100px;
+}
+
+.quotations {
+  font-style: italic;
+  text-align: right;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 40px;
+  padding-left: 0px;
+}
+
+/*.text-center {
+  text-align: center;*/
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
